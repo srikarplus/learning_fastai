@@ -26,6 +26,7 @@ sudo cp cuda/include/*.* /usr/local/cuda/include/
 sudo cp cuda/lib64/*.* /usr/local/cuda/lib64/
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh -b
+conda install jupyter notebook
 cd
 git clone https://github.com/udacity/deep-learning-v2-pytorch.git
 cd deep-learning-v2-pytorch/

@@ -7,8 +7,8 @@ See https://medium.com/@nokkk/setup-guide-for-fastai-part1-v3-fastai-1-0-on-goog
 ```
 git clone https://github.com/fastai/fastai.git
 conda create -n fastai 
-source activate fastai
-echo 'source activate fastai' >> ~/.bashrc
+conda activate fastai
+echo 'conda activate fastai' >> ~/.bashrc
 source ~/.bashrc
 conda install -c pytorch pytorch-nightly cuda92
 conda install -c fastai torchvision-nightly
